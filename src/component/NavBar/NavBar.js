@@ -18,9 +18,9 @@ const NavBar = () => {
                 <h2>Question-Paper</h2>
             </div>
             <div onClick={() => setOpen(!open)} class="h-6 w-6 md:hidden">
-                {
+                {/* {
                     open ? <XMarkIcon /> : <Bars3Icon />
-                }
+                } */}
                 <ul class={`md:flex justify-center absolute md:static duration-500 ease-in ${open ? 'top-4' : 'top-[-120px]'}`}>
                     {
                         routes.map(route => <Link key={route.id} route={route}></Link>)

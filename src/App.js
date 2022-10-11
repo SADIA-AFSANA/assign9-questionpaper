@@ -52,7 +52,7 @@ function App() {
     },
     {
       path: '*',
-      element: <div><h1>This route  are not found</h1></div>
+      element: <div><h1>This route  are not found :: 404</h1></div>
     }
 
   ])
