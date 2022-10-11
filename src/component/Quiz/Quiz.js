@@ -10,7 +10,7 @@ const Quiz = ({ quiz }) => {
             <div>
                 <p>{quiz.name}</p>
                 <p>Q-5</p>
-                <button>Qustion</button>
+                <button>Question</button>
             </div>
 
 

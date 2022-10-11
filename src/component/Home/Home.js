@@ -7,21 +7,28 @@ import './Home.css'
 const Home = () => {
     const loaderData = useLoaderData()
     const quizData = loaderData.data;
-    console.log(quizData);
+
 
 
     return (
         <div>
+            <div>
+                <img src="question.jpeg" alt="" />
+                <h2>There are many topics</h2>
+            </div>
+            <div>
 
-            <h2 className='background'>This is my Home Page</h2>
-            {
-                quizData.map(quiz => <Quiz
-                    key={quiz.id}
-                    quiz={quiz}
 
-                ></Quiz>)
-            }
+                {
+                    quizData.map(quiz => <Quiz
+                        key={quiz.id}
+                        quiz={quiz}
+
+                    ></Quiz>)
+                }
+            </div>
         </div>
+
     );
 };
 

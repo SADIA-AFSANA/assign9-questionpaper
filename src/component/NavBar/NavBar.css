@@ -1,0 +1,5 @@
+.navbar {
+    justify-content: space-between;
+    border: 2px solid gray;
+    background-color: rgb(180, 180, 70);
+}
