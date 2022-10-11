@@ -7,8 +7,8 @@ import NavBar from '../NavBar/NavBar';
 const Main = () => {
     return (
         <div className='main'>
-            {/* <NavBar></NavBar> */}
-            <Header></Header>
+            <NavBar></NavBar>
+            {/* <Header></Header> */}
 
             <Outlet></Outlet>
         </div>

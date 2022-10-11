@@ -1,10 +1,10 @@
-// import React from 'react';
-// import './Link.css'
+import React from 'react';
+import './Link.css'
 
-// const Link = ({ route }) => {
-//     return (
-//         <li className='link'><a href={route.path}>{route.name}</a></li>
-//     );
-// };
+const Link = ({ route }) => {
+    return (
+        <li className='link'><a href={route.path}>{route.name}</a></li>
+    );
+};
 
-// export default Link;
+export default Link;
