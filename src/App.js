@@ -34,9 +34,10 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: '/question',
+          path: '/post/:postId',
           element: <Question></Question>
         },
+
         {
           path: '/blog',
           element: <Blog></Blog>

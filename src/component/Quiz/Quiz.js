@@ -1,7 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Quiz.css';
 
 const Quiz = ({ quiz }) => {
+
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate(`/post/${quiz.id}`);
+    }
     return (
         <div className='profile'>
             <div>
@@ -9,8 +15,8 @@ const Quiz = ({ quiz }) => {
             </div>
             <div>
                 <p>{quiz.name}</p>
-                <p>Q-5</p>
-                <button>Question</button>
+                <p>quiz: {quiz.total}</p>
+                <button onClick={handleNavigate}>Question</button>
             </div>
 
 
