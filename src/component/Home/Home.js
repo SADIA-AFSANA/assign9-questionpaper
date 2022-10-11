@@ -1,11 +1,26 @@
 import React from 'react';
-import Header from '../layout/Header/Header';
+import { useLoaderData } from 'react-router-dom';
+import Quiz from '../Quiz/Quiz';
+import './Home.css'
+
 
 const Home = () => {
+    const loaderData = useLoaderData()
+    const quizData = loaderData.data;
+    console.log(quizData);
+
+
     return (
         <div>
 
-            <h2>My home page</h2>
+            <h2 className='background'>This is my Home Page</h2>
+            {
+                quizData.map(quiz => <Quiz
+                    key={quiz.id}
+                    quiz={quiz}
+
+                ></Quiz>)
+            }
         </div>
     );
 };

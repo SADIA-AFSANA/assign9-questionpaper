@@ -1,0 +1,14 @@
+.profile {
+    background-color: beige;
+    margin: 20px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+
+}
+
+.profile img {
+    height: 250px;
+}

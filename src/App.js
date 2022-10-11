@@ -13,10 +13,16 @@ function App() {
       element: <Main></Main>, children: [
         {
           path: '/',
+          loader: () => {
+            return fetch(' https://openapi.programming-hero.com/api/quiz')
+          },
           element: <Home></Home>
         },
         {
           path: '/home',
+          loader: () => {
+            return fetch(' https://openapi.programming-hero.com/api/quiz')
+          },
           element: <Home></Home>
         },
         {
@@ -29,6 +35,10 @@ function App() {
         },
       ]
     },
+    {
+      path: '*',
+      element: <div><h1>This route  are not found</h1></div>
+    }
 
   ])
   return (
