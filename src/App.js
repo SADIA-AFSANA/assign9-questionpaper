@@ -7,6 +7,8 @@ import Blog from './component/Blog/Blog';
 
 import Chart from './component/Chart/Chart';
 import Main from './component/Main/Main';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
