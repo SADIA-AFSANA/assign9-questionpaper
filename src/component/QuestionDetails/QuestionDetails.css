@@ -3,3 +3,8 @@
     padding: 10px;
     margin: 10px;
 }
+
+.btn {
+    color: red;
+    background-color: blue;
+}
