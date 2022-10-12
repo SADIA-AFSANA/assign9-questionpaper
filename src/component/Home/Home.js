@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
     const loaderData = useLoaderData()
     const quizData = loaderData.data;
-    console.log(quizData);
+    // console.log(quizData);
 
 
 
