@@ -16,6 +16,7 @@ const Home = () => {
             <div>
                 <img src="question.jpeg" alt="" />
                 <h2>There are many topics</h2>
+                <p>We ask questions in order to learn more information about something, and we answer questions to provide more information. Asking and answering questions is not only a part of how we learn, but it is also a part of our social skills; we ask and answer questions to be polite and build and maintain relationships.</p>
             </div>
             <div>
 
